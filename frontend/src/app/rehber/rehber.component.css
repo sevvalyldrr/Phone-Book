@@ -1,0 +1,41 @@
+:host {
+    display: block;
+    background-color: #f4f4f4;
+    padding-top: 4.5%;
+  }
+  
+  /* AgGrid kapsayıcısının stili */
+  .ag-grid-container {
+    width: 100%;
+    height: auto; /* Yüksekliği daha küçük yapın */
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  /* AgGrid'in teması */
+  .ag-theme-alpine {
+    --ag-border-color: #e0e0e0;
+    --ag-header-background-color: #8f7a6f;
+    --ag-header-foreground-color: #ffffff;
+    --ag-odd-row-background-color: #f9f6f0;
+    --ag-even-row-background-color: #ffffff;
+  }
+  
+  /* Header hücrelerinin görünümünü özelleştirin */
+  .ag-header-cell {
+    font-size: 14px; /* Daha uygun bir yazı boyutu */
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  /* Satır hücrelerinin görünümünü özelleştirin */
+  .ag-row {
+    font-size: 16px; /* Daha küçük yazı boyutu */
+  }
+  
+  /* Hücrelerin görünümünü özelleştirin */
+  .ag-cell {
+    padding: 8px;
+    border: 1px solid #e0e0e0;
+  }
+  

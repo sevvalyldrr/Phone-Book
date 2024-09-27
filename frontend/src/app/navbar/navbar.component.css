@@ -1,0 +1,60 @@
+.navbar {
+    width: 100%;
+    height: 8%;
+    background-color: #e0dbd7;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10; /* Soldaki navbar'ın üstünde olması için */
+    display: flex;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  /* .navbar li {
+    float: left;
+  } */
+  
+  .navbar li a {
+    display: block;
+    color: #292f35;
+    padding-left: 30px;
+    text-decoration: none;
+  }
+  
+  .navbar li a:hover {
+    background-color: #ddd;
+    color: #a41d13;
+  }
+
+  .button {
+    padding-left: 115vh;
+    padding-top: 20px;
+  }
+
+.tr_button {
+  width: 5vh;
+  height: 3vh;
+  background-image: url('../../assets/tr.jpg');
+  background-size: cover;
+
+}
+
+.en_button {
+  width: 5vh;
+  height: 3vh;
+  background-image: url('../../assets/en.png');
+  background-size: cover;
+
+}
+
+.routes {
+  padding-top: 26px;
+}
+  

@@ -1,0 +1,121 @@
+.photo {
+    float: left; /* Fotoğrafı sola yaslar */
+    padding-left: 65vh;
+    padding-top: 15%;
+    width: 20vh;
+    height: 100vh;
+    background-size: cover; /* Arka plan resmini kapsar */
+    background-position: center; /* Resmi merkezler */
+    background-repeat: no-repeat; /* Tekrar etmesini engeller */
+    border-radius: 25%;
+    margin-right: 20px; /* Fotoğraf ile yazı arasında boşluk bırakır */
+}
+
+.contact-photo {
+
+    width: 20vh;
+    height: 20vh;
+    border-radius: 24%; /* Fotoğrafı daire şekline getirir */
+}
+
+.info {
+    overflow: hidden; /* İçerik taşmasını engeller */
+}
+
+.info-person {
+    font-size: 25px;
+    margin-left: 250px; /* Fotoğraftan sonraki boşluğu ayarlar */
+    padding-top: 15%; /* Yukarıdan boşluk bırakır */
+}
+
+.details {
+    padding-top: 15%; /* Yukarıdan boşluk bırakır */
+    padding-left: 15vh; /* Sola boşluk bırakmaz */
+}
+
+.right {
+    padding-top: 4%;
+    flex: 0.3;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.left {
+    padding-top: 4%;
+    flex: 0.3;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.companyPhone, .company-num, .email, .b-day, .name, .surname, .phone {
+    display: flex;
+    align-items: center;
+}
+
+.completed-button {
+    width: 45px;
+    height: 45px;
+    background-image: url('../../assets/checked1.png');
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 45vh;
+    margin-top: 2vh;
+
+}
+
+  .file-upload-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 24vh;
+  }
+  
+  .file-upload-container input[type="file"] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0; /* Gizle, ancak üzerinde tıklanabilir */
+    cursor: pointer;
+  }
+  
+  .file-upload-label {
+    display: block;
+    width: 45px; /* Genişlik ve yükseklik ayarlayın */
+    height: 45px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    line-height: 150px; /* Yükseklik ile uyumlu */
+    color: white;
+    font-size: 16px;
+  }
+  
+  .file-upload-label img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Arka plan resmi ile uyumlu hale getirin */
+  }
+  
+  .file-upload-label span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Etiketin üzerinde olmasını sağlar */
+  }
+
+  .favourite {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 63vh;
+    padding-top: 5.5vh;
+
+  }
+
+  .favourite-image {
+    width: 45px; /* Genişlik ve yükseklik ayarlayın */
+    height: 45px;
+  }
+  

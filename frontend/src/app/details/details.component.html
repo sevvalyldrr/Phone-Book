@@ -1,0 +1,47 @@
+<div class="info" *ngIf="selectedContact">
+
+    <div class="photo">
+      <img [src]="selectedContact.profileImage ? selectedContact.profileImage : '../../assets/profile.png'" class="contact-photo" *ngIf="selectedContact">
+    </div>
+    
+  
+    <div class="info-person">
+      <div class="favourite" >
+        <img 
+        [src]="selectedContact.favourite ? '../assets/starrrr.png' : '../assets/stariki.png'" 
+        alt="Favourite" 
+        class="favourite-image"
+      />
+    </div>
+      <p>{{selectedContact.name}} {{selectedContact.surname}}</p>
+      <div class="company">
+        {{selectedContact.companyName}}
+      </div>
+    </div>
+  
+    <div class="details">
+        <div class="phone">
+            <div class="right">{{ 'PHONE_NUMBER' | translate }} :</div>
+            <div class="left">{{selectedContact.phoneNumber}}<br></div>
+        </div>
+    
+        <div class="email">
+            <div class="right">{{ 'EMAIL' | translate }} :</div>
+            <div class="left">{{selectedContact.email}}<br></div>
+        </div>
+  
+  
+        <div class="company-num">
+            <div class="right">{{ 'COMPANY_PHONE_NUMBER' | translate }} :</div>
+            <div class="left">{{selectedContact.companyPhoneNumber}}</div>
+        </div>
+  
+        <div class="b-day">
+            <div class="right">{{ 'BIRTHDAY' | translate }} :</div>
+            <div class="left">{{selectedContact.birthday | date:'dd.MM.yyyy' }}</div>
+        </div>
+    </div>
+  
+    <button class="delete-button" (click)="onDelete(selectedContact.id)"></button>
+    <button class="edit-button" (click)="onUpdate()"></button>
+  </div>

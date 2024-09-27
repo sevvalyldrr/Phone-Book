@@ -1,0 +1,78 @@
+<form class="info" (ngSubmit)="onUpdate()">
+
+    <div class="photo">
+        <img [src]="person.profileImage ? person.profileImage : '../../assets/profile.png'" class="contact-photo">
+    </div>
+
+
+    <div class="details">
+        <div class="file-upload-container">
+            <input type="file" (change)="onImageChange($event)" id="fileInput" />
+            <label for="fileInput" class="file-upload-label">
+              <img src="../../assets/gallery.png" alt="Background Image" />
+            </label>
+          </div>
+          <div class="favourite" >
+            <img 
+            [src]="person.favourite ? '../assets/starrrr.png' : '../assets/stariki.png'" 
+            alt="Favourite" 
+            class="favourite-image"
+            (click)="toggleFavourite()"
+          />
+        </div><br>
+
+        <div class="name">
+            <label class="right" for="name">{{ 'NAME' | translate }}:</label>
+            <input class="left" type="text" id="name" [(ngModel)]="person.name" name="name"><br>
+        </div>
+
+        <div class="surname">
+            <label class="right" for="surname">{{ 'SURNAME' | translate }}:</label>
+            <input class="left" type="text" id="surname" [(ngModel)]="person.surname" name="surname"><br>
+        </div>
+
+        <div class="phone">
+            <label class="right" for="phoneNumber">{{ 'PHONE_NUMBER' | translate }}:</label>
+            <input class="left" type="text" id="phoneNumber" [(ngModel)]="person.phoneNumber" name="phoneNumber"
+                #phoneNumber="ngModel" required minlength="11" maxlength="11" pattern="^[0-9]{11}$"
+                (ngModelChange)="onPhoneNumberChange()" />
+            <div *ngIf="phoneNumber.invalid && (phoneNumber.dirty || phoneNumber.touched)" class="error">
+                <div *ngIf="phoneNumber.errors?.['required']">{{ 'ERRORS_REQUIRED' | translate }}</div>
+                <div
+                    *ngIf="(phoneNumber.errors?.['minlength']) || (phoneNumber.errors?.['maxlength']) || (phoneNumber.errors?.['pattern']) ">
+                    {{ 'ERRORS_LENGTH' | translate }}</div>
+            </div>
+        </div>
+
+        <div class="email">
+            <label class="right" for="email">{{ 'EMAIL' | translate }}:</label> <br>
+            <input class="left" type="text" id="email" [(ngModel)]="person.email" name="email">
+        </div>
+
+        <div class="company-num">
+            <label class="right" for="companyName">{{ 'COMPANY_NAME' | translate }}:</label> <br>
+            <input class="left" type="text" id="companyName" [(ngModel)]="person.companyName" name="companyName">
+        </div>
+
+        <div class="companyPhone">
+            <label class="right" for="companyPhoneNumber">{{ 'COMPANY_PHONE_NUMBER' | translate }}:</label> <br>
+            <input class="left" type="text" id="companyPhoneNumber" [(ngModel)]="person.companyPhoneNumber"
+                name="companyPhoneNumber" #companyPhoneNumber="ngModel" required minlength="11" maxlength="11"
+                pattern="^[0-9]{11}$" (ngModelChange)="onPhoneNumberChange()" />
+            <div *ngIf="companyPhoneNumber.invalid && (companyPhoneNumber.dirty || companyPhoneNumber.touched)"
+                class="error">
+                <div *ngIf="companyPhoneNumber.errors?.['required']">Doldurulması zorunludur</div>
+                <div
+                    *ngIf="(companyPhoneNumber.errors?.['minlength']) || (companyPhoneNumber.errors?.['maxlength']) || (companyPhoneNumber.errors?.['pattern']) ">
+                    {{ 'ERRORS_LENGTH' | translate }}.</div>
+            </div>
+        </div>
+
+        <div class="b-day">
+            <label class="right" for="birthday">{{ 'BIRTHDAY' | translate }}:</label> <br>
+            <input class="left" type="date" id="birthday" [(ngModel)]="person.birthday" name="birthday">
+        </div>
+
+        <button class="completed-button" type="submit"></button>
+    </div>
+</form>

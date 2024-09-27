@@ -1,0 +1,19 @@
+<div class="sidebar">
+    <div class="search-container">
+        <input type="text" [placeholder]="'SEARCH' | translate" class="searchbox" (input)="searchContacts($any($event.target).value)" />
+    </div>
+    <div *ngFor="let contact of filteredContacts" class="sidebar-item" (mouseover)="expand(contact.id)"
+        (mouseleave)="collapse()">
+        <a [routerLink]="['/details', contact.id]" class="no-underline">
+        <div class="profile">
+            <div class="photo">
+                <img [src]="contact.profileImage ? contact.profileImage : '../../assets/profile.png'" class="profile-image" *ngIf="contact">
+            </div>
+            <div class="profile-details">
+                <p class="name">{{ contact.name }} {{ contact.surname }}</p>
+                <p class="company">{{ contact.companyName }}</p>
+            </div>
+        </div>
+        </a>
+    </div>
+</div>
