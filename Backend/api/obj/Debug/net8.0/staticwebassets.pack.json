@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/ysrmeys/Desktop/Rehber/Backend/api/wwwroot/images/0ow5yt4t.zbo.jpeg",
+      "PackagePath": "staticwebassets/images/0ow5yt4t.zbo.jpeg"
+    },
+    {
+      "Id": "/Users/ysrmeys/Desktop/Rehber/Backend/api/wwwroot/images/rwmogop3.jdy.jpeg",
+      "PackagePath": "staticwebassets/images/rwmogop3.jdy.jpeg"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.api.props",
+      "PackagePath": "build\\api.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.api.props",
+      "PackagePath": "buildMultiTargeting\\api.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.api.props",
+      "PackagePath": "buildTransitive\\api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

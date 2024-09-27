@@ -1,0 +1,84 @@
+2024-08-26 16:56:54.9865|INFO|api.Program|Uygulama başlatılıyor...
+2024-08-26 16:56:56.2778|INFO|api.Controllers.ContactController|GetAll method called.
+2024-08-26 16:56:56.2778|INFO|api.Controllers.ContactController|GetAll method called.
+2024-08-26 16:56:56.2796|INFO|api.Controllers.ContactController|GetById method called with id: 1002
+2024-08-26 16:56:56.5806|INFO|api.Controllers.ContactController|Contact with id 1002 retrieved.
+2024-08-26 16:56:56.5806|INFO|api.Controllers.ContactController|18 contacts retrieved.
+2024-08-26 16:56:56.5806|INFO|api.Controllers.ContactController|18 contacts retrieved.
+2024-08-26 16:56:56.7966|INFO|api.Controllers.ContactController|GetAll method called.
+2024-08-26 16:56:56.7966|INFO|api.Controllers.ContactController|GetById method called with id: 1002
+2024-08-26 16:56:56.8194|INFO|api.Controllers.ContactController|Contact with id 1002 retrieved.
+2024-08-26 16:56:56.8225|INFO|api.Controllers.ContactController|18 contacts retrieved.
+2024-08-26 16:56:58.2459|INFO|api.Controllers.ContactController|GetById method called with id: 2
+2024-08-26 16:56:58.2540|INFO|api.Controllers.ContactController|Contact with id 2 retrieved.
+2024-08-26 16:56:58.8139|INFO|api.Controllers.ContactController|GetById method called with id: 1002
+2024-08-26 16:56:58.8200|INFO|api.Controllers.ContactController|Contact with id 1002 retrieved.
+2024-08-26 16:57:02.8748|INFO|api.Controllers.ContactController|GetById method called with id: 2005
+2024-08-26 16:57:02.8799|INFO|api.Controllers.ContactController|Contact with id 2005 retrieved.
+2024-08-26 16:57:12.9324|INFO|api.Controllers.ContactController|GetAll method called.
+2024-08-26 16:57:12.9454|INFO|api.Controllers.ContactController|18 contacts retrieved.
+2024-08-26 16:57:16.5922|INFO|api.Controllers.ContactController|GetAll method called.
+2024-08-26 16:57:16.6042|INFO|api.Controllers.ContactController|18 contacts retrieved.
+2024-08-26 16:57:17.4113|INFO|api.Controllers.ContactController|GetById method called with id: 2002
+2024-08-26 16:57:17.4241|INFO|api.Controllers.ContactController|Contact with id 2002 retrieved.
+2024-08-26 16:57:17.9976|INFO|api.Controllers.ContactController|GetById method called with id: 1002
+2024-08-26 16:57:18.0058|INFO|api.Controllers.ContactController|Contact with id 1002 retrieved.
+2024-08-26 16:57:18.5474|INFO|api.Controllers.ContactController|GetById method called with id: 2
+2024-08-26 16:57:18.5612|INFO|api.Controllers.ContactController|Contact with id 2 retrieved.
+2024-08-26 16:57:19.4647|INFO|api.Controllers.ContactController|GetById method called with id: 2
+2024-08-26 16:57:19.4707|INFO|api.Controllers.ContactController|Contact with id 2 retrieved.
+2024-08-26 16:57:20.2040|INFO|api.Controllers.ContactController|Update method called for contact id: 2
+2024-08-26 16:57:20.2539|INFO|api.Controllers.ContactController|Contact with id 2 updated.
+2024-08-26 16:57:33.9369|INFO|api.Controllers.ContactController|GetById method called with id: 2003
+2024-08-26 16:57:33.9441|INFO|api.Controllers.ContactController|Contact with id 2003 retrieved.
+2024-08-26 16:58:19.1095|INFO|api.Program|Uygulama başlatılıyor...
+2024-08-26 16:58:21.0196|INFO|api.Controllers.ContactController|GetAll method called.
+2024-08-26 16:58:21.0196|INFO|api.Controllers.ContactController|GetAll method called.
+2024-08-26 16:58:21.0214|INFO|api.Controllers.ContactController|GetById method called with id: 2003
+2024-08-26 16:58:21.3106|INFO|api.Controllers.ContactController|18 contacts retrieved.
+2024-08-26 16:58:21.3106|INFO|api.Controllers.ContactController|18 contacts retrieved.
+2024-08-26 16:58:21.3106|INFO|api.Controllers.ContactController|Contact with id 2003 retrieved.
+2024-08-26 16:58:21.5169|INFO|api.Controllers.ContactController|GetAll method called.
+2024-08-26 16:58:21.5202|INFO|api.Controllers.ContactController|GetById method called with id: 2003
+2024-08-26 16:58:21.5381|INFO|api.Controllers.ContactController|Contact with id 2003 retrieved.
+2024-08-26 16:58:21.5430|INFO|api.Controllers.ContactController|18 contacts retrieved.
+2024-08-26 16:58:22.0556|INFO|api.Controllers.ContactController|GetById method called with id: 1002
+2024-08-26 16:58:22.0604|INFO|api.Controllers.ContactController|Contact with id 1002 retrieved.
+2024-08-26 16:58:22.6131|INFO|api.Controllers.ContactController|GetById method called with id: 2
+2024-08-26 16:58:22.6201|INFO|api.Controllers.ContactController|Contact with id 2 retrieved.
+2024-08-26 16:58:23.2796|INFO|api.Controllers.ContactController|GetById method called with id: 2004
+2024-08-26 16:58:23.2886|INFO|api.Controllers.ContactController|Contact with id 2004 retrieved.
+2024-08-26 16:58:29.7190|INFO|api.Controllers.ContactController|GetAll method called.
+2024-08-26 16:58:29.7311|INFO|api.Controllers.ContactController|18 contacts retrieved.
+2024-08-26 16:59:21.7574|INFO|api.Controllers.ContactController|GetAll method called.
+2024-08-26 16:59:21.7574|INFO|api.Controllers.ContactController|GetAll method called.
+2024-08-26 16:59:21.7653|INFO|api.Controllers.ContactController|18 contacts retrieved.
+2024-08-26 16:59:21.7653|INFO|api.Controllers.ContactController|18 contacts retrieved.
+2024-08-26 16:59:22.0102|INFO|api.Controllers.ContactController|GetAll method called.
+2024-08-26 16:59:22.0185|INFO|api.Controllers.ContactController|18 contacts retrieved.
+2024-08-26 16:59:23.4360|INFO|api.Controllers.ContactController|GetAll method called.
+2024-08-26 16:59:23.4594|INFO|api.Controllers.ContactController|18 contacts retrieved.
+2024-08-26 16:59:23.4896|INFO|api.Controllers.ContactController|GetById method called with id: 2
+2024-08-26 16:59:23.4957|INFO|api.Controllers.ContactController|Contact with id 2 retrieved.
+2024-08-26 17:00:39.4176|INFO|api.Controllers.ContactController|GetAll method called.
+2024-08-26 17:00:39.4176|INFO|api.Controllers.ContactController|GetAll method called.
+2024-08-26 17:00:39.4176|INFO|api.Controllers.ContactController|GetById method called with id: 2
+2024-08-26 17:00:39.4239|INFO|api.Controllers.ContactController|Contact with id 2 retrieved.
+2024-08-26 17:00:39.4289|INFO|api.Controllers.ContactController|18 contacts retrieved.
+2024-08-26 17:00:39.4289|INFO|api.Controllers.ContactController|18 contacts retrieved.
+2024-08-26 17:00:39.8721|INFO|api.Controllers.ContactController|GetAll method called.
+2024-08-26 17:00:39.8767|INFO|api.Controllers.ContactController|GetById method called with id: 2
+2024-08-26 17:00:39.8801|INFO|api.Controllers.ContactController|Contact with id 2 retrieved.
+2024-08-26 17:00:39.8823|INFO|api.Controllers.ContactController|18 contacts retrieved.
+2024-08-26 17:00:41.6793|INFO|api.Controllers.ContactController|GetAll method called.
+2024-08-26 17:00:41.6933|INFO|api.Controllers.ContactController|18 contacts retrieved.
+2024-08-26 17:00:42.2064|INFO|api.Controllers.ContactController|GetAll method called.
+2024-08-26 17:00:42.2064|INFO|api.Controllers.ContactController|GetById method called with id: 2003
+2024-08-26 17:00:42.2105|INFO|api.Controllers.ContactController|Contact with id 2003 retrieved.
+2024-08-26 17:00:42.2163|INFO|api.Controllers.ContactController|18 contacts retrieved.
+2024-08-26 17:00:43.4032|INFO|api.Controllers.ContactController|GetAll method called.
+2024-08-26 17:00:43.4155|INFO|api.Controllers.ContactController|18 contacts retrieved.
+2024-08-26 17:00:43.9856|INFO|api.Controllers.ContactController|GetAll method called.
+2024-08-26 17:00:43.9872|INFO|api.Controllers.ContactController|GetById method called with id: 2002
+2024-08-26 17:00:44.0030|INFO|api.Controllers.ContactController|Contact with id 2002 retrieved.
+2024-08-26 17:00:44.0044|INFO|api.Controllers.ContactController|18 contacts retrieved.

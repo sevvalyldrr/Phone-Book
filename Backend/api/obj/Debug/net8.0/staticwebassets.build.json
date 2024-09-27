@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "k1u/la/lA1ctj5Oi9cVzDoacfCmQsp20b1mcsWp8vE0=",
+  "Source": "api",
+  "BasePath": "_content/api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "api/wwwroot",
+      "Source": "api",
+      "ContentRoot": "/Users/ysrmeys/Desktop/Rehber/Backend/api/wwwroot/",
+      "BasePath": "_content/api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/ysrmeys/Desktop/Rehber/Backend/api/wwwroot/images/0ow5yt4t.zbo.jpeg",
+      "SourceId": "api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ysrmeys/Desktop/Rehber/Backend/api/wwwroot/",
+      "BasePath": "_content/api",
+      "RelativePath": "images/0ow5yt4t.zbo.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/0ow5yt4t.zbo.jpeg"
+    },
+    {
+      "Identity": "/Users/ysrmeys/Desktop/Rehber/Backend/api/wwwroot/images/rwmogop3.jdy.jpeg",
+      "SourceId": "api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ysrmeys/Desktop/Rehber/Backend/api/wwwroot/",
+      "BasePath": "_content/api",
+      "RelativePath": "images/rwmogop3.jdy.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/rwmogop3.jdy.jpeg"
+    }
+  ]
+}
